@@ -10,7 +10,7 @@ falkordb
 # build/Dockerfile still installs `redis<8.1` because editing it rebuilds the
 # whole multi-arch toolchain image; drop that pin the next time the toolchain
 # is rebuilt for another reason.
-redis<8.2
+redis<8.3
 falkordb-bulk-loader
 hypothesis
 pytest
